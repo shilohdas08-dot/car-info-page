@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Explorer: Brands & Models</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Car Explorer: Brands & Models</h1>
+        <p>Click a brand to see models, then use the search bar to find details.</p>
+    </header>
+
+    <div id="container">
+        <aside id="brand-panel">
+            <h2>Select a Brand</h2>
+            <ul id="brand-list">
+                </ul>
+        </aside>
+
+        <main id="details-panel">
+            <h2 id="brand-title"></h2>
+            
+            <input type="text" id="search-input" placeholder="Search for a model..." aria-label="Search car models">
+
+            <div id="car-list">
+                </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Car Explorer App</p>
+    </footer>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>
