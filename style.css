@@ -1,0 +1,64 @@
+/* Basic Reset and Typography */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333;
+}
+
+header {
+    background-color: #004d99; /* Dark Blue Header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Section Styling to separate content */
+section {
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+/* Styling for the Advantages Section (e.g., Green for Positive) */
+#advantages {
+    background-color: #e6ffe6; /* Very light green */
+    border-left: 5px solid #4CAF50; /* Green stripe */
+}
+
+/* Styling for the Disadvantages Section (e.g., Red for Negative) */
+#disadvantages {
+    background-color: #ffe6e6; /* Very light red */
+    border-left: 5px solid #f44336; /* Red stripe */
+}
+
+/* Styling for the individual information blocks */
+.info-block {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.info-block h3 {
+    margin-top: 0;
+    color: #004d99;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ddd;
+    color: #555;
+    font-size: 0.9em;
+}
